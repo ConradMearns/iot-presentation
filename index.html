@@ -26,179 +26,6 @@
 		<div class="reveal">
 			<div class="slides">
 
-				<section data-markdown>
-					<textarea data-template>
-						## Project Bellbird
-
-						#### Conrad Mearns
-					</textarea>
-				</section>
-
-				<section data-markdown>
-					<textarea data-template>
-						## But First, a Sound Check
-
-						<iframe width="896" height="504" data-src="https://www.youtube-nocookie.com/embed/XziuEdpVUe0?controls=0?autoplay=1"></iframe>
-					</textarea>
-				</section>
-
-				<section data-markdown>
-					<textarea data-template>
-						# Project Bellbird
-
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/nREYBx4eZf8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-						## IoT Tripwire Alert Mechanism
-					</textarea>
-				</section>
-
-
-				<section data-markdown>
-					<textarea data-template>
-						# What is it?
-
-						<p class="fragment fade-in-then-semi-out">a scalable and wireless security system</p>
-						<p class="fragment fade-in-then-semi-out">that stays in a deep sleep...</p>
-						<p class="fragment fade-in-then-semi-out">until bumped, dropped or moved</p>
-						<p class="fragment fade-in-then-semi-out">it sends alerts over a GSM network</p>
-						<p class="fragment fade-in-then-semi-out">so that you can worry less about the things you care about...</p>
-
-					</textarea>
-				</section>
-
-				<section>
-
-					<section>
-						<h3>LILYGO TTGO T-Call ESP32</h3>
-
-						<img width="40%" src="ttgo_slant.jpg">
-	
-						<img width="40%" src="ttgo_double.jpg">
-					</section>
-
-
-					<section data-markdown>
-						<textarea data-template>
-							### Considerations
-							<p class="fragment fade-in-then-semi-out">ESP32 Deep Sleep draws ~1.44mAh / day using 4AA</p>
-							<p class="fragment fade-in-then-semi-out">in other words, 4AA = 5 year when dormant</p>
-							<p class="fragment fade-in-then-semi-out">2G only, as GSM is proived by SIM800L</p>
-							<p class="fragment fade-in-then-semi-out">Lily GO sells for $15.80 + $5.80 S&H</p>
-	
-						</textarea>
-					</section>
-
-					<section data-markdown>
-						<textarea data-template>
-							### GSM Cost Considerations
-							![](hologram.png)
-
-							__see more:__ https://hologram.io/pricing/details/
-						</textarea>
-					</section>
-
-
-					<section data-markdown>
-						<textarea data-template>
-							### Further Development Considerations
-							
-							- 2G may be restrictive on the potential market
-							- at minimum, 3G should be used to maximize potential
-							- SIM5320A - $30 ~ $32 in bulk, $61.49 for development
-
-							- _Fona Feather, 2G, $50_
-							- _Particle Electron, 2G/3G, $70_
-
-						</textarea>
-					</section>
-
-				</section>
-
-
-				<section>
-					<section data-markdown>
-						<textarea data-template>
-								# Market Audience
-								> security and privacy enthusiasts
-								<br />
-								> (who are also hackers)
-						</textarea>
-					</section>
-
-					<section data-markdown>
-						<textarea data-template>
-							#### "You want to compete with Ring?"
-							###### (valued at $1.8 billion)
-							> YES because...
-						</textarea>
-					</section>
-
-					<section>
-						<p class="fragment fade-in-then-semi-out">Replacing security infrastructure is already costly</p>
-						<p class="fragment fade-in-then-semi-out">Ring doesn't support off-prem applications</p>
-						<p class="fragment fade-in-then-semi-out">Ring targets the new-wave surveilance market</p>
-						<p class="fragment fade-in-then-semi-out">Project Bellbird targets the existing security market</p>
-					</section>
-	
-					<section data-markdown>
-						<textarea data-template>
-							### Project Bellbird enhances existing access restriction techniques by _passively_ monitoring it's environment
-						</textarea>
-					</section>				
-				</section>
-
-
-
-
-				<section>
-
-				<section data-markdown>
-					<textarea data-template>
-						![](bellbird_overview.png)
-					</textarea>
-				</section>
-
-				<section data-markdown>
-					<textarea data-template>
-						![](bellbird_trigger.png)
-					</textarea>
-				</section>
-
-				</section>
-
-
-
-
-
-
-				<section>
-
-				<section data-markdown>
-					<textarea data-template>
-						![](ring.png)
-					</textarea>
-				</section>
-
-				<section data-markdown>
-					<textarea data-template>
-						![](comp.png)
-					</textarea>
-				</section>
-
-
-				<section data-markdown>
-					<textarea data-template>
-						- To date, over 400,000 Ring units have sold
-						- Many GPS tracking companies exist, targetting bike and car tracking
-						- Subscriptions are often $15+ a month or more
-						- Active devices cause faster power drain, not ideal for remote systems
-						- Last Maker Faire had over +65,000 participants
-						- Ride the rise of Makerspaces / Hackerspaces / Fablabs!
-						- Cf. Mark Adams on 'Internet Tribes'
-					</textarea>
-				</section>
-
-				</section>
 
 
 
@@ -206,8 +33,191 @@
 
 
 
+<!-- INTRO + SOUNDCHECK + BELLBIRD -->
+<section> 
+	<section data-markdown>
+		<textarea data-template>
+			## Project Bellbird
+
+			#### Conrad Mearns
+		</textarea>
+	</section>
+
+	<section data-markdown>
+		<textarea data-template>
+			## But First, a Sound Check
+
+			<iframe width="896" height="504" data-src="https://www.youtube-nocookie.com/embed/XziuEdpVUe0?controls=0?autoplay=1"></iframe>
+		</textarea>
+	</section>
+
+	<section data-markdown>
+		<textarea data-template>
+			# Project Bellbird
+
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/nREYBx4eZf8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+			## IoT Tripwire Alert Mechanism
+		</textarea>
+	</section>
+
+</section>
+
+<!-- WHAT IS IT -->
+<section data-markdown>
+	<textarea data-template>
+		# What is it?
+
+		<p class="fragment fade-in-then-semi-out">a scalable and wireless security system</p>
+		<p class="fragment fade-in-then-semi-out">that stays in a deep sleep...</p>
+		<p class="fragment fade-in-then-semi-out">until bumped, dropped or moved</p>
+		<p class="fragment fade-in-then-semi-out">it sends alerts over a GSM network</p>
+		<p class="fragment fade-in-then-semi-out">so that you can worry less about the things you care about...</p>
+
+	</textarea>
+</section>
+
+<!-- PASSIVE -->
+<section data-markdown>
+	<textarea data-template>
+		### Project Bellbird enhances existing access restriction techniques by _passively_ monitoring it's environment
+	</textarea>
+</section>		
+				
+				
+
+<!-- VS RING -->
+<section data-markdown>
+	<textarea data-template>
+		#### "You want to compete with Ring?"
+		###### (valued at $1.8 billion)
+		> YES because...
+	</textarea>
+</section>
+
+<section>
+	<p class="fragment fade-in-then-semi-out">Replacing security infrastructure is already costly</p>
+	<p class="fragment fade-in-then-semi-out">Ring doesn't support off-prem applications</p>
+	<p class="fragment fade-in-then-semi-out">Ring targets the new-wave surveilance market</p>
+	<p class="fragment fade-in-then-semi-out">Project Bellbird targets the existing security market</p>
+</section>
 
 
+<!-- COMP -->
+<section data-markdown>
+	<textarea data-template>
+		![](ring.png)
+	</textarea>
+</section>
+
+<section data-markdown>
+	<textarea data-template>
+		![](comp.png)
+	</textarea>
+</section>
+
+
+<section data-markdown>
+	<textarea data-template>
+		- To date, over 400,000 Ring units have sold
+		- Many GPS tracking companies exist, targetting bike and car tracking
+		- Subscriptions are often $15+ a month or more
+		- Active devices cause faster power drain, not ideal for remote systems
+	</textarea>
+</section>
+
+
+<!-- TARGET -->
+<section data-markdown>
+	<textarea data-template>
+		# Market Audience
+		> security and privacy enthusiasts
+		<p class="fragment fade-in-then-semi-out">(who are also hackers)</p>
+	</textarea>
+</section>
+
+<section data-markdown>
+	<textarea data-template>
+		- Last Maker Faire had over +65,000 participants
+		- Ride the rise of Makerspaces / Hackerspaces / Fablabs!
+		- Cf. Mark Adams on 'Internet Tribes'
+	</textarea>
+</section>
+
+<section data-markdown>
+	<textarea data-template>
+		<p class="fragment fade-in-then-semi-out">Open Source everything. Cf farm.bot</p>
+		<p class="fragment fade-in-then-semi-out">Point of Sale for Hardware</p>
+		<p class="fragment fade-in-then-semi-out">Community Focal Point</p>
+		<p class="fragment fade-in-then-semi-out">GSM Reseller + Cloud Provider</p>
+	</textarea>
+</section>
+
+
+<!-- BLOCK -->
+
+
+<section>
+
+	<section data-markdown>
+		<textarea data-template>
+			![](bellbird_overview.png)
+		</textarea>
+	</section>
+
+	<section data-markdown>
+		<textarea data-template>
+			![](bellbird_trigger.png)
+		</textarea>
+	</section>
+
+</section>
+
+
+<!-- CONSIDERATIONS -->
+
+<section>
+	<h3>LILYGO TTGO T-Call ESP32</h3>
+
+	<img width="40%" src="ttgo_slant.jpg">
+
+	<img width="40%" src="ttgo_double.jpg">
+</section>
+
+<section data-markdown>
+	<textarea data-template>
+		### Considerations
+		<p class="fragment fade-in-then-semi-out">ESP32 Deep Sleep draws ~1.44mAh / day using 4AA</p>
+		<p class="fragment fade-in-then-semi-out">in other words, 4AA = 5 year when dormant</p>
+		<p class="fragment fade-in-then-semi-out">2G only, as GSM is proived by SIM800L</p>
+		<p class="fragment fade-in-then-semi-out">Lily GO sells for $15.80 + $5.80 S&H</p>
+
+	</textarea>
+</section>
+
+<section data-markdown>
+	<textarea data-template>
+		### GSM Cost Considerations
+		![](hologram.png)
+
+		__see more:__ https://hologram.io/pricing/details/
+	</textarea>
+</section>
+
+
+<section data-markdown>
+	<textarea data-template>
+		### Further Development Considerations
+		
+		- 2G may be restrictive on the potential market
+		- at minimum, 3G should be used to maximize potential
+		- SIM5320A - $30 ~ $32 in bulk, $61.49 for development
+
+		- _Fona Feather, 2G, $50_
+		- _Particle Electron, 2G/3G, $70_
+
+	</textarea>
+</section>
 
 
 
